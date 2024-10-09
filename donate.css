@@ -11,7 +11,7 @@
     height: 530px;
     margin-top:2%;
     margin-left: 33%;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 
 }
@@ -21,10 +21,10 @@ box-shadow: 12px 12px 12px rgba(0,0,0,0.4);
 }
 input
 {
-width: 200px;
+width: 300px;
 height: 45px;
 border-radius: 1em;
-border-color: rgb(168, 103, 230);
+border-color: rgb(54, 36, 34);
 background-color: rgba(0,0,0,0.4);
 color: aqua;
 }
@@ -47,6 +47,7 @@ color: aqua;
     color:black;
     font-size: large;
     border: none;
+    border-radius: 1em;
    
 }
 
