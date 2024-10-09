@@ -39,6 +39,29 @@ if($input_username=='vasu@gmail.com' and $input_password=='1234')
     } else {
         echo "No records found in the DonarDetails table.";
     }
+    // volunteer details
+
+    $sql = "SELECT * FROM VolunteerDetails";
+    $result = $conn->query($sql);
+    if ($result->num_rows > 0) {
+        echo '<h2 style="text-align:center;color:auqa;font-variant:small-caps;">Volunteer Details</h2>';
+        echo '<table  border="1px" border-collapse: separate  style="text-align: center;  margin-left: auto; margin-right: auto;">';
+        echo '<tr><th>Volunteer Name</th><th>Volunteer Email </th></tr>';
+
+        // Output data of each row
+        while($row = $result->fetch_assoc()) {
+            echo "<tr>";
+            echo "<td style='color:red;'>" . $row["volunteername"] . "</td>";
+            echo "<td>" . $row["email"] . "</td>";
+            
+            echo "</tr>";
+        }
+        echo '</table>';
+    } else {
+        echo "No records found in the DonarDetails table.";
+    }
+
+
 
 }
 else{
