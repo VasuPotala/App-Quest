@@ -37,7 +37,7 @@ if ($stmt->num_rows > 0) {
 } else {
           echo '<script type="text/javascript">
             alert("This account does not exist, please sign up.");
-            window.location.href = "signup.html";
+            window.location.href = "login.html";
           </script>';
 }
 
