@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Take a Bite out of Hunger</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
-
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
-
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-        
-        <!-- CSS Libraries -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-        <!-- Template Stylesheet -->
-        <link href="donate.css" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>Take a Bite out of Hunger</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    
+    <!-- Template Stylesheet -->
+    <link href="donate.css" rel="stylesheet">
+</head>
 <body>
 
-    <b><h1 style="margin-top: 8%;"> DONATE & HELP<br>FAMISHED PEOPLE TO EAT</h1></b>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Take a Bite out of Hunger</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index1.html" onclick="history.back()">Back</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <b><h1 style="margin-top: 8%; color: cornsilk;"> DONATE & HELP<br>FAMISHED PEOPLE TO EAT</h1></b>
     <div class="main-div">
        <br> <h1 style="color: aqua;">DONATE NOW</h1>
         <br><br>
@@ -34,10 +50,9 @@
             <center><input type="text" id="number" name="number" placeholder="Mobile Number"style="text-align: center;"></center><br>
             <center> <input type="text" id="location" name="location" placeholder="Location('City, Dist, State')"style="text-align: center;"><br>
             <br><input type="text" id="foodtype" name="foodtype" placeholder="Food type"style="text-align:center;"></center>
-            <br><center><input type="text" id="quantity" name="quantity" style="text-align: center;"></center>
+            <br><center><input type="text" id="quantity" name="quantity" placeholder="quantity" style="text-align: center;"></center>
             <br><button id="btn-donate"><b>Donate</b></button>
         </form>
     </div> 
-    
 </body>
 </html>

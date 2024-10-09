@@ -29,16 +29,25 @@ background-color: rgba(0,0,0,0.4);
 color: aqua;
 }
 
+.navbar-brand
+{
+    text-align: center;
+    margin-left: 35%;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 230%;
+}
 
 #btn-donate
 {
     width: 150px;
     height: 40px;
-    background-color:black ;
-    color: white;
+    background-color: gold ;
+    color:black;
     font-size: large;
     border: none;
-    background-color:transparent ;
+   
 }
 
 body{
